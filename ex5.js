@@ -38,8 +38,6 @@ function buscarPez(banco_peces, pezBuscado) {
             let array_peces = banco_peces[indicePez];
             if(pezBuscado == array_peces.nombre){
                 pezEncontrado = true; 
-        }else if(pezBuscado != array_peces.nombre){
-            
         }
         indicePez = indicePez + 1; 
     }
